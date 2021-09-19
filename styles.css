@@ -1,4 +1,85 @@
-h1{
-    text-align: center;
-    color: red;
+body {
+  background: radial-gradient(
+    circle at 50.4% 50.5%,
+    rgb(251, 32, 86) 0%,
+    rgb(135, 2, 35) 90%
+  );
+}
+
+h1 {
+  text-align: center;
+  font-family: "Berkshire Swash", cursive;
+  padding-top: 50px;
+  font-size: 50px;
+  color: gold;
+}
+h2 {
+  font-family: "Cinzel", serif;
+  text-align: center;
+  color: white;
+}
+h5 {
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Sunshiney", cursive;
+  font-size: 30px;
+  color: gold;
+}
+
+p {
+  text-align: center;
+  color: gold;
+}
+
+input {
+  display: block;
+  margin: 0 auto;
+  border-style: ridge;
+  border-color: gold;
+  background-color: purple;
+  color: white;
+  width: 700px;
+  padding: 10px;
+}
+
+.card {
+  display: block;
+  margin: 0 auto;
+}
+
+.summon {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: purple;
+  color: white;
+  border-color: gold;
+  cursor: pointer;
+}
+.summon:hover {
+  background-color: gold;
+  border: black;
+  color: purple;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  background: radial-gradient(
+    circle at 50.4% 50.5%,
+    rgb(251, 32, 86) 0%,
+    rgb(135, 2, 35) 90%
+  );
+  border-color: black;
+}
+.btn:hover {
+  background-color: gold;
+  border: black;
+  color: purple;
+}
+.card {
+  background: radial-gradient(
+    circle at 50.4% 50.5%,
+    rgb(251, 32, 86) 0%,
+    rgb(135, 2, 35) 90%
+  );
 }
