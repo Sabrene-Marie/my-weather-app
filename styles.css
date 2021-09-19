@@ -83,3 +83,8 @@ input {
     rgb(135, 2, 35) 90%
   );
 }
+.link{
+    text-align: center;
+    color: gold;
+    font-family: "Sunshiney", cursive;
+}
